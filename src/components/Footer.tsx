@@ -1,4 +1,3 @@
-import React from 'react';
 import {FolderGit2Icon } from 'lucide-react';
 
 const Footer = () => {
