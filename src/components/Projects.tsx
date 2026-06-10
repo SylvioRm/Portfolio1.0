@@ -1,7 +1,7 @@
 import Title from "./Title";
 
-import imgPro1 from "../assets/projects/1.png"
-import imgPro2 from "../assets/projects/2.png"
+import imgPro1 from "../assets/projects/board.png"
+import imgPro2 from "../assets/projects/board1.png"
 import imgPro3 from "../assets/projects/3.png"
 import imgPro4 from "../assets/projects/4.png"
 import imgPro5 from "../assets/projects/5.png"
@@ -10,31 +10,31 @@ import imgPro6 from "../assets/projects/6.png"
 const projects = [
     {
         id: 1, 
-        title: "Projet1",
-        description: "devellopeur full", 
+        title: "Soloprofit",
+        description: "Une application web destiné pour les PME Malagasy qui gère leurs tâches et leurs profit avec des notifications intégrés pour le suivi des tâches et des alertes pour les échéances importantes. Gère aussi les ressources et la liste des clients locale ou même internationale, avec des factures intégrés.", 
         technogies: [
         "HTML",
-        "CSS",
-        "JS"
+        "Bootstrap",
+        "JS",
+        "PHP"
 
         ],
         demoLink: "#", 
-        repoLink: "#",
+        repoLink: "https://github.com/SylvioRm/SoloProfit",
         image: imgPro1
      },
     {
         id: 2, 
-        title: "Projet2",
-        description: "devellopeur full", 
+        title: "Gestion de paiement d'écolage",
+        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des factures et les paiements, les listes des étudiants dans une année scolaire donner.", 
         technogies: [
+        "Laravel",
         "HTML",
         "Bootstrap",
-        "PHP",
         "JS"
-
         ],
         demoLink: "#", 
-        repoLink: "#",
+        repoLink: "https://github.com/SylvioRm/gestion_ecolage_laravel",
         image: imgPro2
      },
     {
