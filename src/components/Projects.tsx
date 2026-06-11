@@ -1,15 +1,27 @@
 import Title from "./Title";
 
-import imgPro1 from "../assets/projects/board.png"
-import imgPro2 from "../assets/projects/board1.png"
-import imgPro3 from "../assets/projects/3.png"
-import imgPro4 from "../assets/projects/4.png"
+import imgPro1 from "../assets/projects/projet1.png"
+import imgPro2 from "../assets/projects/projet2.png"
+import imgPro3 from "../assets/projects/projet3.png"
+import imgPro4 from "../assets/projects/projet4.png"
 import imgPro5 from "../assets/projects/5.png"
 import imgPro6 from "../assets/projects/6.png"
 
 const projects = [
     {
         id: 1, 
+        title: "Portfolio",
+        description: "Une site web qui présente mes réalisations, mes compétences. ", 
+        technogies: [
+        "React",
+        "Bootstrap",
+        ],
+        demoLink: "#", 
+        repoLink: "#",
+        image: imgPro1
+     },
+    {
+        id: 2, 
         title: "Soloprofit",
         description: "Une application web destiné pour les PME Malagasy qui gère leurs tâches et leurs profit avec des notifications intégrés pour le suivi des tâches et des alertes pour les échéances importantes. Gère aussi les ressources et la liste des clients locale ou même internationale, avec des factures intégrés.", 
         technogies: [
@@ -21,12 +33,12 @@ const projects = [
         ],
         demoLink: "#", 
         repoLink: "https://github.com/SylvioRm/SoloProfit",
-        image: imgPro1
+        image: imgPro2
      },
     {
-        id: 2, 
+        id: 3, 
         title: "Gestion de paiement d'écolage",
-        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des factures et les paiements, les listes des étudiants dans une année scolaire donner.", 
+        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des factures, les listes des étudiants dans une année scolaire donner.", 
         technogies: [
         "Laravel",
         "HTML",
@@ -35,29 +47,16 @@ const projects = [
         ],
         demoLink: "#", 
         repoLink: "https://github.com/SylvioRm/gestion_ecolage_laravel",
-        image: imgPro2
-     },
-    {
-        id: 3, 
-        title: "Projet3",
-        description: "devellopeur full", 
-        technogies: [
-        "HTML",
-        "Tailwind CSS",
-        "React Native"
-        ],
-        demoLink: "#", 
-        repoLink: "#",
         image: imgPro3
      },
     {
         id: 4, 
-        title: "Projet4",
-        description: "devellopeur full", 
+        title: "Alexia",
+        description: "Une simple application d'assistante vocale qui porte le nom d'Alexia. C'est une test de compétence en python et quelques librairie de python.", 
         technogies: [
-        "HTML",
-        "Tailwind CSS",
-        "Laravel"
+        "Python",
+        "Customtkinter",
+        "vosk"
         ],
         demoLink: "#", 
         repoLink: "#",
@@ -101,7 +100,7 @@ const Projets = () => {
                 </Title>
                 <div className="row g-4">
                     {projects.map((project) => (
-                        <div key={project.id} className="col-12 col-lg-4">
+                        <div key={project.id} className="col-12 col-lg-4" style={{ boxSizing: "border-box" }}>
                             <div className="bg-secondary text-light p-4 h-auto rounded-3 shadow-lg">
                                <img 
                                src={project.image} 
@@ -109,7 +108,7 @@ const Projets = () => {
                                className="w-100 rounded-3 h-100 object-cover"
                                />
                                <div>
-                                 <h1 className="my-2 fw-bold">
+                                 <h1 className="my-2 fs-3 fw-bold">
                                     {project.title}
                                 </h1>
                                 <p className="fs-small">
