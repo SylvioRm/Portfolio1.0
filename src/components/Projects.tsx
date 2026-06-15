@@ -4,26 +4,26 @@ import imgPro1 from "../assets/projects/projet1.png"
 import imgPro2 from "../assets/projects/projet2.png"
 import imgPro3 from "../assets/projects/projet3.png"
 import imgPro4 from "../assets/projects/projet4.png"
-import imgPro5 from "../assets/projects/5.png"
+import imgPro5 from "../assets/projects/projet5.png"
 import imgPro6 from "../assets/projects/6.png"
 
 const projects = [
     {
         id: 1, 
         title: "Portfolio",
-        description: "Une site web qui présente mes réalisations, mes compétences. ", 
+        description: "Une site web qui présente mes réalisations, mes compétences, mes études. ", 
         technogies: [
         "React",
         "Bootstrap",
         ],
         demoLink: "#", 
-        repoLink: "#",
+        repoLink: "https://github.com/SylvioRm/Portfolio1.0",
         image: imgPro1
      },
     {
         id: 2, 
         title: "Soloprofit",
-        description: "Une application web destiné pour les PME Malagasy qui gère leurs tâches et leurs profit avec des notifications intégrés pour le suivi des tâches et des alertes pour les échéances importantes. Gère aussi les ressources et la liste des clients locale ou même internationale, avec des factures intégrés.", 
+        description: "Une application web destiné pour les PME Malagasy qui gère leurs tâches et leurs profit avec des notifications intégrés pour le suivi des tâches et des alertes pour les échéances importantes. Gère aussi les calcules de leurs bénefice et dépense en temps réel.", 
         technogies: [
         "HTML",
         "Bootstrap",
@@ -38,7 +38,7 @@ const projects = [
     {
         id: 3, 
         title: "Gestion de paiement d'écolage",
-        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des factures, les listes des étudiants dans une année scolaire donner.", 
+        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des reçus, les listes des étudiants dans une année scolaire.", 
         technogies: [
         "Laravel",
         "HTML",
@@ -52,7 +52,7 @@ const projects = [
     {
         id: 4, 
         title: "Alexia",
-        description: "Une simple application d'assistante vocale qui porte le nom d'Alexia. C'est une test de compétence en python et quelques librairie de python.", 
+        description: "Une application qui porte le nom d'Alexia qui n'est qu'une simple assistante vocal. En cours de développement.", 
         technogies: [
         "Python",
         "Customtkinter",
@@ -64,30 +64,30 @@ const projects = [
      },
     {
         id: 5, 
-        title: "Projet5",
-        description: "devellopeur full", 
+        title: "Foodie",
+        description: "Intégration d'une maquette de restaurant qui porte le nom de Foodie. En utilisant la structure BEM et qui est responsive.", 
         technogies: [
         "HTML",
-        "Tailwind CSS",
-        "React Native"
+        "CSS",
+        "Photoshop"
         ],
         demoLink: "#", 
         repoLink: "#",
         image: imgPro5
      },
-    {
-        id: 6, 
-        title: "Projet6",
-        description: "devellopeur full", 
-        technogies: [
-        "HTML",
-        "Tailwind CSS",
-        "React Native"
-        ],
-        demoLink: "#", 
-        repoLink: "#",
-        image: imgPro6
-     },
+    // {
+    //     id: 6, 
+    //     title: "Projet6",
+    //     description: "devellopeur full", 
+    //     technogies: [
+    //     "HTML",
+    //     "Tailwind CSS",
+    //     "React Native"
+    //     ],
+    //     demoLink: "#", 
+    //     repoLink: "#",
+    //     image: imgPro6
+    //  },
 ]
 
 
@@ -127,7 +127,6 @@ const Projets = () => {
                                 <a href={project.repoLink} className="btn btn-sm btn-dark col-5">Repo</a>
                                </div>
                             </div>
-
                         </div>
                     ))}
                 </div>

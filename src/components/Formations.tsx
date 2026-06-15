@@ -28,7 +28,7 @@ const formations = [
     {
         id: 1, 
         name: "IS-INFO Ampasamadinika",
-        period: "2023 - actuel", 
+        period: "2024 - actuel", 
         description: "Actuellement, étudiant en troisième année en Informatique de Gestion",
         icon : <GraduationCap size={30} className="text-light" strokeWidth={2}></GraduationCap>
         // image: imgExp1
@@ -37,7 +37,7 @@ const formations = [
         id: 2,
         name: "Lycée Saint Michel Itaosy",
         period: "2020 - 2023", 
-        description: "Obtention du baccalauréat en 2023 série D",
+        description: "Obtention du baccalauréat série D en 2023",
         icon : <School size={30} className="text-light" strokeWidth={2}></School>
         // image: imgExp2
      },
