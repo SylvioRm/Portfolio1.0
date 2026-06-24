@@ -101,13 +101,19 @@ const Projets = () => {
                 <div className="row g-4">
                     {projects.map((project) => (
                         <div key={project.id} className="col-12 col-lg-4" style={{ boxSizing: "border-box" }}>
-                            <div className="bg-secondary text-light p-4 h-auto rounded-3 shadow-lg">
-                               <img 
-                               src={project.image} 
-                               alt={project.title} 
-                               className="w-100 rounded-3 h-100 object-cover"
+                            <div className="d-flex flex-column justify-content-between bg-secondary text-light p-4 h-100 rounded-3 shadow-lg">
+                                <div                                
+                                style={{
+                                height: '200px',
+                                overflow: 'hidden'
+                               }}>
+                                <img 
+                                src={project.image} 
+                                alt={project.title} 
+                                className="w-100 rounded-3 object-cover"
                                />
-                               <div>
+                                </div>
+                               <div className="flex-grow-1 d-flex flex-column">
                                  <h1 className="my-2 fs-3 fw-bold">
                                     {project.title}
                                 </h1>
