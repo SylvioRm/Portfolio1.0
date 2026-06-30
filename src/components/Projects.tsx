@@ -58,7 +58,7 @@ const projects = [
         "Customtkinter",
         "vosk"
         ],
-        demoLink: "#", 
+        demoLink: "https://github.com/SylvioRm/Alexia", 
         repoLink: "#",
         image: imgPro4
      },
