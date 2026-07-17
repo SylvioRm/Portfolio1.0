@@ -56,14 +56,9 @@ const Footer = () => {
         </div>
 
         <hr className="my-4 border-secondary" />
-
-        {/* Section Droits d'auteur & Retour en haut */}
         <div className="row align-items-center">
           <div className="col-12 col-md-6 text-center text-md-start text-muted small">
-            © {new Date().getFullYear()} SDev. Tous droits réservés. 
-            <span className="d-block d-sm-inline ms-sm-2">
-              Fait avec <Heart size={14} className="text-danger animate-pulse" />
-            </span>
+            © {new Date().getFullYear()} SDev. Tous droits réservés.
           </div>
           
           <div className="col-12 col-md-6 text-center text-md-end mt-3 mt-md-0">
