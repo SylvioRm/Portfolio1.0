@@ -5,7 +5,6 @@ import imgPro2 from "../assets/projects/projet2.png"
 import imgPro3 from "../assets/projects/projet3.png"
 import imgPro4 from "../assets/projects/projet4.png"
 import imgPro5 from "../assets/projects/projet5.png"
-import imgPro6 from "../assets/projects/6.png"
 
 const projects = [
     {

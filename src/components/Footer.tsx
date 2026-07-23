@@ -1,4 +1,4 @@
-import { Mail, ArrowUp, Code2, Heart } from 'lucide-react';
+import { Mail, ArrowUp, Code2 } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
