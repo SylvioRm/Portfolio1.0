@@ -15,12 +15,6 @@ const aboutSection = [
         description: "Spécialisé dans la conception de structures logicielles robustes et sécurisées. Rigoureux sur l'architecture des données, je développe des systèmes de gestion et des solutions sur mesure.",
         icon: <Database size={28} strokeWidth={2}></Database> 
     },
-    // {
-    //     id: 3,
-    //     title: "Développeur mobile",
-    //     description: "Curieux et orienté vers l'innovation multiplateforme. Je m'intéresse de près au développement d'applications mobiles agiles et légères en utilisant des frameworks modernes.",
-    //     icon: <i className="fa fa-letter text-primary scale-150"></i>
-    // }
 ]
 
 

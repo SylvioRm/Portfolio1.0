@@ -75,19 +75,6 @@ const projects = [
         repoLink: "#",
         image: imgPro5
      },
-    // {
-    //     id: 6, 
-    //     title: "Projet6",
-    //     description: "devellopeur full", 
-    //     technogies: [
-    //     "HTML",
-    //     "Tailwind CSS",
-    //     "React Native"
-    //     ],
-    //     demoLink: "#", 
-    //     repoLink: "#",
-    //     image: imgPro6
-    //  },
 ]
 
 

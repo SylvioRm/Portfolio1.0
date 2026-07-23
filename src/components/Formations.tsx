@@ -139,7 +139,8 @@ const Formations = () => {
 
                 <div className="d-flex justify-content-center mt-4 w-100">
                     <motion.a 
-                    href="#" 
+                    href="/ Cv.pdf" 
+                    download="CV_Sylvio_RM.pdf"
                     className="btn btn-outline-dark shadow-sm px-4 py-2"
                     whileHover={{
                         scale: 1.05,
