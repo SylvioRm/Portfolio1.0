@@ -1,6 +1,5 @@
 import Title from "./Title";
 
-import imgPro1 from "../assets/projects/projet1.png"
 import imgPro2 from "../assets/projects/projet2.png"
 import imgPro3 from "../assets/projects/projet3.png"
 import imgPro4 from "../assets/projects/projet4.png"
