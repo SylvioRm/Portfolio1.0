@@ -9,20 +9,8 @@ import imgPro5 from "../assets/projects/projet5.png"
 const projects = [
     {
         id: 1, 
-        title: "Portfolio",
-        description: "Une site web qui présente mes réalisations, mes compétences, mes études. ", 
-        technogies: [
-        "React",
-        "Bootstrap",
-        ],
-        demoLink: "#", 
-        repoLink: "https://github.com/SylvioRm/Portfolio1.0",
-        image: imgPro1
-     },
-    {
-        id: 2, 
         title: "Soloprofit",
-        description: "Une application web destiné pour les PME Malagasy qui gère leurs tâches et leurs profit avec des notifications intégrés pour le suivi des tâches et des alertes pour les échéances importantes. Gère aussi les calcules de leurs bénefice et dépense en temps réel.", 
+        description: "Une application web destinée pour les PME Malagasy permettant gérer leurs tâches et leurs profit avec des notifications intégrées pour le suivi des tâches et des alertes pour les échéances importantes. Gère aussi les calcules de leurs bénefice et dépense en temps réel.", 
         technogies: [
         "HTML",
         "Bootstrap",
@@ -30,26 +18,26 @@ const projects = [
         "PHP"
 
         ],
-        demoLink: "#", 
+        apercuLink: "#", 
         repoLink: "https://github.com/SylvioRm/SoloProfit",
         image: imgPro2
      },
     {
-        id: 3, 
+        id: 2, 
         title: "Gestion de paiement d'écolage",
-        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des reçus, les listes des étudiants dans une année scolaire.", 
+        description: "Un projet académique qui permet de gérer le paiement des écolages dans une établissement scolaire. Il gère aussi la géneration des reçus, les listes des étudiants pour une année scolaire donnée.", 
         technogies: [
         "Laravel",
         "HTML",
         "Bootstrap",
         "JS"
         ],
-        demoLink: "#", 
+        apercuLink: "#", 
         repoLink: "https://github.com/SylvioRm/gestion_ecolage_laravel",
         image: imgPro3
      },
     {
-        id: 4, 
+        id: 3, 
         title: "Alexia",
         description: "Une application qui porte le nom d'Alexia qui n'est qu'une simple assistante vocal. En cours de développement.", 
         technogies: [
@@ -57,20 +45,19 @@ const projects = [
         "Customtkinter",
         "vosk"
         ],
-        demoLink: "https://github.com/SylvioRm/Alexia", 
-        repoLink: "#",
+        apercuLink: "#", 
+        repoLink: "https://github.com/SylvioRm/Alexia",
         image: imgPro4
      },
     {
-        id: 5, 
-        title: "Foodie",
-        description: "Intégration d'une maquette de restaurant qui porte le nom de Foodie. En utilisant la structure BEM et qui est responsive.", 
+        id: 4, 
+        title: "Q&A",
+        description: "Une petite plateforme de question réponse pour s'entraider entre dev.", 
         technogies: [
-        "HTML",
-        "CSS",
-        "Photoshop"
+        "Django",
+        "TailwindCss"
         ],
-        demoLink: "#", 
+        apercuLink: "#", 
         repoLink: "#",
         image: imgPro5
      },
@@ -115,7 +102,7 @@ const Projets = () => {
                                 ))}
                                </div>
                                <div className="d-flex row">
-                                <a href={project.demoLink} className="btn btn-sm btn-primary col-6 mx-2">Demo</a>
+                                <a href={project.apercuLink} className="btn btn-sm btn-primary col-6 mx-2">Aperçu</a>
                                 <a href={project.repoLink} className="btn btn-sm btn-dark col-5">Repo</a>
                                </div>
                             </div>

@@ -35,7 +35,7 @@ const Home = () => {
                             <br /> je suis prêt à transformer vos idées en pages web fonctionnelles  et soignées.<br /> Je suis sérieux, à l'écoute, et toujours prêt à apprendre pour mieux vous satisfaire.
                         </p>
                         <motion.a 
-                        href="" 
+                        href="mailto:sylviormc@gmail.com" 
                         className="btn btn-outline-primary shadow-sm transition-all"
                         whileHover={{
                             scale: 1.05,

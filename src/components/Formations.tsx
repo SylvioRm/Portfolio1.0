@@ -12,6 +12,8 @@ import imgBOOT from "../assets/techno/Bootstrap.jpg"
 import imgPY from "../assets/techno/Python.jpg"
 import imgDJA from "../assets/techno/Django.jpeg"
 
+import cvFile from "../assets/Cv.pdf"
+
 const skills = [
     {id: 1, name: "HTML", image: imgHTML},
     {id: 2,name: "CSS", image: imgCSS},
@@ -139,7 +141,7 @@ const Formations = () => {
 
                 <div className="d-flex justify-content-center mt-4 w-100">
                     <motion.a 
-                    href="/ Cv.pdf" 
+                    href={cvFile} 
                     download="CV_Sylvio_RM.pdf"
                     className="btn btn-outline-dark shadow-sm px-4 py-2"
                     whileHover={{

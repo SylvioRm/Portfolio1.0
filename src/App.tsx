@@ -5,13 +5,15 @@ import Navbar from "./components/Navbar";
 import Projets from "./components/Projects";
 import Footer from "./components/Footer";
 
-function App(){
+function App() {
   return (
     <>
       <div className="bg-dark w-100 h-auto p-2">
-        <Navbar onSelectItem={(item: string) => {
-          console.log(item);
-        } } />
+        <Navbar
+          onSelectItem={(item: string) => {
+            console.log(item);
+          }}
+        />
       </div>
       <div>
         <Home />
@@ -25,11 +27,9 @@ function App(){
       <div className="bg-dark p-3 p-lg-5">
         <Projets />
       </div>
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;

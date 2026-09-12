@@ -32,13 +32,13 @@ const Footer = () => {
             <h5 className="fw-bold mb-3">Restons connectés</h5>
             <div className="d-flex justify-content-center justify-content-md-end gap-3 mb-3">
               
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/SylvioRm" target="_blank" rel="noopener noreferrer" 
                  className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
                  style={{ width: '40px', height: '40px' }} title="GitHub">
                 <i className="fab fa-github fa-lg"></i>
               </a>
 
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://linkedin.com/in/sylvio-ramiandrisoa-751a21363" target="_blank" rel="noopener noreferrer" 
                  className="btn btn-outline-primary btn-sm rounded-circle d-flex align-items-center justify-content-center"
                  style={{ width: '40px', height: '40px' }} title="LinkedIn">
                 <i className="fab fa-linkedin-in fa-lg"></i>
